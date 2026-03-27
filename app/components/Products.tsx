@@ -1,7 +1,7 @@
 export default function Products({ name, brand, price, image, rating, description, skinType, skinConcerns, directions, ingredients }: { 
     name: string, 
     brand: string, 
-    price: string, 
+    price: number, 
     image: string, 
     rating: number | string, 
     description: string, 

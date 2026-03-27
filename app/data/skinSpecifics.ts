@@ -30,7 +30,7 @@ const productTypes = [
     "Eye Cream",
     "Mask",
     "Face Oil",
-    "Balm",
+    "Acne Treatment",
     "Lip Balm"
 ];
 

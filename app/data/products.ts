@@ -1,6 +1,7 @@
 export const products = [
   {
     id: 1,
+    productType: "Cleanser",
     name: "Qasil Cleanser",
     brand: "Sable Labs",
     price: 29.99,
@@ -9,6 +10,7 @@ export const products = [
   },
   {
     id: 2,
+    productType: "Cleanser",
     name: "Hydrating Face Wash",
     brand: "CeraVe",
     price: 14.99,
@@ -17,6 +19,7 @@ export const products = [
   },
   {
     id: 3,
+    productType: "Toner",
     name: "Glow Toner",
     brand: "Fenty Skin",
     price: 28.0,
@@ -25,6 +28,7 @@ export const products = [
   },
   {
     id: 4,
+    productType: "Serum",
     name: "Niacinamide Serum",
     brand: "The Ordinary",
     price: 6.5,
@@ -33,6 +37,7 @@ export const products = [
   },
   {
     id: 5,
+    productType: "Serum",
     name: "Vitamin C Serum",
     brand: "La Roche-Posay",
     price: 39.99,
@@ -41,6 +46,7 @@ export const products = [
   },
   {
     id: 6,
+    productType: "Moisturizer",
     name: "Daily Moisturizer",
     brand: "Neutrogena",
     price: 18.99,
@@ -49,6 +55,7 @@ export const products = [
   },
   {
     id: 7,
+    productType: "Sunscreen",
     name: "SPF 50 Sunscreen",
     brand: "Supergoop!",
     price: 36.0,
@@ -57,6 +64,7 @@ export const products = [
   },
   {
     id: 8,
+    productType: "Mask",
     name: "Clay Mask",
     brand: "Innisfree",
     price: 15.0,
@@ -65,6 +73,7 @@ export const products = [
   },
   {
     id: 9,
+    productType: "Toner",
     name: "Exfoliating Toner",
     brand: "Paula's Choice",
     price: 34.0,
@@ -73,6 +82,7 @@ export const products = [
   },
   {
     id: 10,
+    productType: "Serum",
     name: "Hyaluronic Acid Serum",
     brand: "Glow Recipe",
     price: 42.0,
@@ -81,6 +91,7 @@ export const products = [
   },
   {
     id: 11,
+    productType: "Eye Cream",
     name: "Brightening Eye Cream",
     brand: "Ole Henriksen",
     price: 38.0,
@@ -89,6 +100,7 @@ export const products = [
   },
   {
     id: 12,
+    productType: "Serum",
     name: "Retinol Night Serum",
     brand: "Olay",
     price: 29.99,
@@ -97,6 +109,7 @@ export const products = [
   },
   {
     id: 14,
+    productType: "Moisturizer",
     name: "Soothing Gel Cream",
     brand: "Laneige",
     price: 32.0,
@@ -105,6 +118,7 @@ export const products = [
   },
   {
     id: 15,
+    productType: "Lip Balm",
     name: "Lip Sleeping Mask",
     brand: "Laneige",
     price: 24.0,
@@ -113,6 +127,7 @@ export const products = [
   },
   {
     id: 16,
+    productType: "Face Oil",
     name: "Facial Oil",
     brand: "The Inkey List",
     price: 14.99,
@@ -121,6 +136,7 @@ export const products = [
   },
   {
     id: 17,
+    productType: "Balm",
     name: "Acne Spot Treatment",
     brand: "Mario Badescu",
     price: 17.0,
@@ -129,6 +145,7 @@ export const products = [
   },
   {
     id: 18,
+    productType: "Cleanser",
     name: "Gentle Exfoliator",
     brand: "Dermalogica",
     price: 59.0,
@@ -137,6 +154,7 @@ export const products = [
   },
   {
     id: 19,
+    productType: "Toner",
     name: "Rose Water Mist",
     brand: "Heritage Store",
     price: 10.99,
@@ -145,6 +163,7 @@ export const products = [
   },
   {
     id: 20,
+    productType: "Moisturizer",
     name: "Barrier Repair Cream",
     brand: "Dr. Jart+",
     price: 48.0,
@@ -153,6 +172,7 @@ export const products = [
   },
   {
     id: 21,
+    productType: "Cleanser",
     name: "Charcoal Cleanser",
     brand: "Origins",
     price: 26.0,
@@ -161,6 +181,7 @@ export const products = [
   },
   {
     id: 22,
+    productType: "Serum",
     name: "AHA Peeling Solution",
     brand: "The Ordinary",
     price: 9.9,
@@ -169,6 +190,7 @@ export const products = [
   },
   {
     id: 23,
+    productType: "Mask",
     name: "Hydrating Sheet Mask",
     brand: "Dr. Jart+",
     price: 9.0,
@@ -177,6 +199,7 @@ export const products = [
   },
   {
     id: 24,
+    productType: "Cleanser",
     name: "Daily Facial Cleanser",
     brand: "Kiehl's",
     price: 25.0,
@@ -185,6 +208,7 @@ export const products = [
   },
   {
     id: 25,
+    productType: "Moisturizer",
     name: "Water Cream",
     brand: "Tatcha",
     price: 68.0,
@@ -193,6 +217,7 @@ export const products = [
   },
   {
     id: 26,
+    productType: "Serum",
     name: "Brightening Serum",
     brand: "Good Molecules",
     price: 12.0,
@@ -201,6 +226,7 @@ export const products = [
   },
   {
     id: 27,
+    productType: "Sunscreen",
     name: "SPF Moisturizer",
     brand: "Black Girl Sunscreen",
     price: 18.0,
@@ -209,6 +235,7 @@ export const products = [
   },
   {
     id: 28,
+    productType: "Face Oil",
     name: "Face Oil Blend",
     brand: "Sunday Riley",
     price: 72.0,
@@ -217,6 +244,7 @@ export const products = [
   },
   {
     id: 29,
+    productType: "Moisturizer",
     name: "Calming Cream",
     brand: "First Aid Beauty",
     price: 34.0,
