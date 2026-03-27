@@ -4,7 +4,7 @@ export const products = [
     name: "Qasil Cleanser",
     brand: "Sable Labs",
     price: 29.99,
-    image: "https://sablelabs.co/cdn/shop/files/QasilCleanerWebNEW1x1_2048x2048.png?v=1759924804",
+    image: "https://www.spacenk.com/on/demandware.static/-/Sites-spacenkmastercatalog/default/dwb8574d47/products/SABLE_LABS/UK200040945_SABLE_LABS.jpg",
     rating: 5,
   },
   {
@@ -12,7 +12,7 @@ export const products = [
     name: "Hydrating Face Wash",
     brand: "CeraVe",
     price: 14.99,
-    image: "https://via.placeholder.com/300",
+    image: "https://i.pinimg.com/1200x/c4/bb/e6/c4bbe6d7faf14b9487cc08772b282178.jpg",
     rating: 4,
   },
   {
@@ -20,7 +20,7 @@ export const products = [
     name: "Glow Toner",
     brand: "Fenty Skin",
     price: 28.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://media.pamper.my/2022/11/FS_HOL22_T2PRODUCT_SILO_JUMBO_FAT_WATER_2000x2000.jpg",
     rating: 5,
   },
   {
@@ -28,7 +28,7 @@ export const products = [
     name: "Niacinamide Serum",
     brand: "The Ordinary",
     price: 6.5,
-    image: "https://via.placeholder.com/300",
+    image: "https://theordinary.us.com/cdn/shop/files/niacinamide-10-zinc-1.webp?v=1742500530",
     rating: 4,
   },
   {
@@ -36,7 +36,7 @@ export const products = [
     name: "Vitamin C Serum",
     brand: "La Roche-Posay",
     price: 39.99,
-    image: "https://via.placeholder.com/300",
+    image: "https://8c3412d76225d04d7baa-be98b6ea17920953fb931282eff9a681.images.lovelyskin.com/hldbwftk_202504031423512477.jpg",
     rating: 5,
   },
   {
@@ -44,7 +44,7 @@ export const products = [
     name: "Daily Moisturizer",
     brand: "Neutrogena",
     price: 18.99,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.meijer.com/content/dam/meijer/product/0070/50/1067/68/0070501067680_2_A1C1_0600.jpg",
     rating: 4,
   },
   {
@@ -52,7 +52,7 @@ export const products = [
     name: "SPF 50 Sunscreen",
     brand: "Supergoop!",
     price: 36.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://bluemercury.com/cdn/shop/files/variant_images-size-Sunrise-17oz-816218026882-1_c7165e4e-5253-4a33-b293-db005387536f.jpg?v=1759624359&width=1500",
     rating: 5,
   },
   {
@@ -60,7 +60,7 @@ export const products = [
     name: "Clay Mask",
     brand: "Innisfree",
     price: 15.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://us.innisfree.com/cdn/shop/files/1IF_V-CM_PDP_01_Packshot_2024_1080x1080_cbbd6762-1ece-4aaa-a06b-0fb4290b37c8_1.jpg?v=1759868439",
     rating: 4,
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     name: "Exfoliating Toner",
     brand: "Paula's Choice",
     price: 34.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.sephora.com/productimages/sku/s2978716-main-zoom.jpg",
     rating: 5,
   },
   {
@@ -76,7 +76,7 @@ export const products = [
     name: "Hyaluronic Acid Serum",
     brand: "Glow Recipe",
     price: 42.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://media.kohlsimg.com/is/image/kohls/434d43c17f6a23f200ba13364b23ba086c4f862a?wid=805&hei=805&op_sharpen=1",
     rating: 5,
   },
   {
@@ -84,23 +84,15 @@ export const products = [
     name: "Brightening Eye Cream",
     brand: "Ole Henriksen",
     price: 38.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.sephora.com/productimages/sku/s2593309-main-zoom.jpg?imwidth=315",
     rating: 4,
   },
   {
     id: 12,
-    name: "Foaming Cleanser",
-    brand: "Cetaphil",
-    price: 12.99,
-    image: "https://via.placeholder.com/300",
-    rating: 4,
-  },
-  {
-    id: 13,
     name: "Retinol Night Serum",
     brand: "Olay",
     price: 29.99,
-    image: "https://via.placeholder.com/300",
+    image: "https://cdn11.bigcommerce.com/s-gud7r2x2lu/products/399/images/7541/Olay_Retinol24Serum_MOI__62220.1729101027.386.513.jpg?c=2",
     rating: 4,
   },
   {
@@ -108,7 +100,7 @@ export const products = [
     name: "Soothing Gel Cream",
     brand: "Laneige",
     price: 32.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://upload.skin-seoul.com/wp-content/uploads/2025/11/thu_cb97f98b83b34935b9bd9894c20d484d.webp",
     rating: 5,
   },
   {
@@ -116,7 +108,7 @@ export const products = [
     name: "Lip Sleeping Mask",
     brand: "Laneige",
     price: 24.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://refinehealthmiami.com/cdn/shop/files/Untitled_design_52.png?v=1730816389",
     rating: 5,
   },
   {
@@ -124,7 +116,7 @@ export const products = [
     name: "Facial Oil",
     brand: "The Inkey List",
     price: 14.99,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.thecareak.com/wp-content/uploads/2021/09/Rosehip-oil-face-1.jpg",
     rating: 4,
   },
   {
@@ -132,7 +124,7 @@ export const products = [
     name: "Acne Spot Treatment",
     brand: "Mario Badescu",
     price: 17.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.mariobadescu.com/cdn/shop/files/telgrbauypesbxtq2yzg_b3137526-0535-4dbe-8b6d-ca50a78d2c2e.jpg?v=1702450609",
     rating: 4,
   },
   {
@@ -140,7 +132,7 @@ export const products = [
     name: "Gentle Exfoliator",
     brand: "Dermalogica",
     price: 59.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://8c3412d76225d04d7baa-be98b6ea17920953fb931282eff9a681.images.lovelyskin.com/2xcy1pv2_202506191413142661.jpg",
     rating: 5,
   },
   {
@@ -148,7 +140,7 @@ export const products = [
     name: "Rose Water Mist",
     brand: "Heritage Store",
     price: 10.99,
-    image: "https://via.placeholder.com/300",
+    image: "https://i5.walmartimages.com/asr/4ec448db-8ad8-4bd9-89d0-c062c02b288e.26f76597ab9bb7cb43c461c58e72eced.png",
     rating: 4,
   },
   {
@@ -156,7 +148,7 @@ export const products = [
     name: "Barrier Repair Cream",
     brand: "Dr. Jart+",
     price: 48.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.sephora.com/productimages/sku/s2640662-main-zoom.jpg?imwidth=96https://www.sephora.com/productimages/sku/s2640662-main-zoom.jpg?imwidth=1224",
     rating: 5,
   },
   {
@@ -164,7 +156,7 @@ export const products = [
     name: "Charcoal Cleanser",
     brand: "Origins",
     price: 26.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.sephora.com/productimages/sku/s2175370-main-zoom.jpg?imwidth=930",
     rating: 4,
   },
   {
@@ -172,7 +164,7 @@ export const products = [
     name: "AHA Peeling Solution",
     brand: "The Ordinary",
     price: 9.9,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.ordinarykuwait.com/wp-content/uploads/2023/09/rdn-aha-30pct-bha-2pct-peeling-solution-30ml.webp",
     rating: 5,
   },
   {
@@ -180,7 +172,7 @@ export const products = [
     name: "Hydrating Sheet Mask",
     brand: "Dr. Jart+",
     price: 9.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.sephora.com/productimages/sku/s2762979-main-zoom.jpg?imwidth=1224",
     rating: 4,
   },
   {
@@ -188,7 +180,7 @@ export const products = [
     name: "Daily Facial Cleanser",
     brand: "Kiehl's",
     price: 25.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.sephora.com/productimages/sku/s2842714-main-zoom.jpg?imwidth=1224",
     rating: 5,
   },
   {
@@ -196,7 +188,7 @@ export const products = [
     name: "Water Cream",
     brand: "Tatcha",
     price: 68.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://s2.r29static.com/bin/entry/318/0,0,2000,1050/x,80/2200924/image.jpg",
     rating: 5,
   },
   {
@@ -204,7 +196,7 @@ export const products = [
     name: "Brightening Serum",
     brand: "Good Molecules",
     price: 12.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://dy6g3i6a1660s.cloudfront.net/k3Qkyq0ATH3JxNKk8fVGMQR-BH4/zb_p.jpg",
     rating: 4,
   },
   {
@@ -212,7 +204,7 @@ export const products = [
     name: "SPF Moisturizer",
     brand: "Black Girl Sunscreen",
     price: 18.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://frendsbeauty.com/cdn/shop/files/bgs_30_1_700x700.jpg?v=1695816239",
     rating: 5,
   },
   {
@@ -220,23 +212,15 @@ export const products = [
     name: "Face Oil Blend",
     brand: "Sunday Riley",
     price: 72.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.sephora.com/productimages/sku/s2213528-main-zoom.jpg?imwidth=1224",
     rating: 5,
   },
   {
     id: 29,
-    name: "Pore Minimizing Toner",
-    brand: "Pixi",
-    price: 15.0,
-    image: "https://via.placeholder.com/300",
-    rating: 4,
-  },
-  {
-    id: 30,
     name: "Calming Cream",
     brand: "First Aid Beauty",
     price: 34.0,
-    image: "https://via.placeholder.com/300",
+    image: "https://www.sephora.com/productimages/sku/s2935617-main-zoom.jpg?imwidth=1224",
     rating: 5,
   },
 ];
