@@ -84,7 +84,7 @@ export const products = [
     name: "Brightening Eye Cream",
     brand: "Ole Henriksen",
     price: 38.0,
-    image: "https://www.sephora.com/productimages/sku/s2593309-main-zoom.jpg?imwidth=315",
+    image: "https://cdn1.skinsafeproducts.com/photo/3DEE591ACA5A53/large_1528819911.pngPNG?1528819911",
     rating: 4,
   },
   {
@@ -100,7 +100,7 @@ export const products = [
     name: "Soothing Gel Cream",
     brand: "Laneige",
     price: 32.0,
-    image: "https://upload.skin-seoul.com/wp-content/uploads/2025/11/thu_cb97f98b83b34935b9bd9894c20d484d.webp",
+    image: "https://storage.skinsort.com/bxjausakwsx5vinlqhbbbk2h2b5j",
     rating: 5,
   },
   {

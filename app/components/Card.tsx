@@ -2,7 +2,7 @@ export default function Card({ name, brand, price, image, rating, onClick }: { n
     // TODO: Add a click handler to navigate to product page
     return (
         <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden w-full max-w-xs cursor-pointer" onClick={onClick}>
-            <div className="aspect-square overflow-hidden">
+            <div className="aspect-[3/4] overflow-hidden">
                 <img src={image} alt={name} className="w-full h-full object-cover" />
             </div>
             <div className="p-4">
