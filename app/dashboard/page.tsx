@@ -3,6 +3,7 @@
 import Card from "../components/Card";
 import Filter from "../components/Filter";
 import { useRouter } from "next/navigation";
+import { products } from "../data/products";
 
 // TODO: Add a loop to handle multiple cards
 export default function Dashboard() {
