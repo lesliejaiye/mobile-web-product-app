@@ -7,8 +7,6 @@ import { useState, useRef, useEffect } from "react";
 import Products from "../components/Products";
 import { productTypeInfo } from "../data/skinSpecifics";
 
-// TODO: Fix scroll position when navigating back from product details
-
 export default function Dashboard() {
     const [selectedProduct, setSelectedProduct] = useState(products[0]);
     const [page, setPage] = useState("dashboard");

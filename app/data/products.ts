@@ -7,6 +7,7 @@ export const products = [
     price: 29.99,
     image: "https://www.spacenk.com/on/demandware.static/-/Sites-spacenkmastercatalog/default/dwb8574d47/products/SABLE_LABS/UK200040945_SABLE_LABS.jpg",
     rating: 5,
+    benefits: ["Hydrate", "Nourish"],
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const products = [
     price: 14.99,
     image: "https://i.pinimg.com/1200x/c4/bb/e6/c4bbe6d7faf14b9487cc08772b282178.jpg",
     rating: 4,
+    benefits: ["Hydrate", "Nourish"],
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const products = [
     price: 28.0,
     image: "https://media.pamper.my/2022/11/FS_HOL22_T2PRODUCT_SILO_JUMBO_FAT_WATER_2000x2000.jpg",
     rating: 5,
+    benefits: ["Deep Clean", "Remove Impurities"],
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const products = [
     price: 6.5,
     image: "https://theordinary.us.com/cdn/shop/files/niacinamide-10-zinc-1.webp?v=1742500530",
     rating: 4,
+    benefits: ["Soothe", "Calm Redness"],
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const products = [
     price: 39.99,
     image: "https://8c3412d76225d04d7baa-be98b6ea17920953fb931282eff9a681.images.lovelyskin.com/hldbwftk_202504031423512477.jpg",
     rating: 5,
+    benefits: ["Minimize Pores", "Smooth Texture"],
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const products = [
     price: 18.99,
     image: "https://www.meijer.com/content/dam/meijer/product/0070/50/1067/68/0070501067680_2_A1C1_0600.jpg",
     rating: 4,
+    benefits: ["Reduce Wrinkles", "Firm Skin"],
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const products = [
     price: 36.0,
     image: "https://bluemercury.com/cdn/shop/files/variant_images-size-Sunrise-17oz-816218026882-1_c7165e4e-5253-4a33-b293-db005387536f.jpg?v=1759624359&width=1500",
     rating: 5,
+    benefits: ["Protect", "Repair Barrier"],
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const products = [
     price: 15.0,
     image: "https://us.innisfree.com/cdn/shop/files/1IF_V-CM_PDP_01_Packshot_2024_1080x1080_cbbd6762-1ece-4aaa-a06b-0fb4290b37c8_1.jpg?v=1759868439",
     rating: 4,
+    benefits: ["Boost Glow", "Refresh"],
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ export const products = [
     price: 34.0,
     image: "https://www.sephora.com/productimages/sku/s2978716-main-zoom.jpg",
     rating: 5,
+    benefits: ["Boost Glow", "Refresh"],
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ export const products = [
     price: 42.0,
     image: "https://media.kohlsimg.com/is/image/kohls/434d43c17f6a23f200ba13364b23ba086c4f862a?wid=805&hei=805&op_sharpen=1",
     rating: 5,
+    benefits: ["Hydrate", "Nourish"],
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ export const products = [
     price: 38.0,
     image: "https://cdn1.skinsafeproducts.com/photo/3DEE591ACA5A53/large_1528819911.pngPNG?1528819911",
     rating: 4,
+    benefits: ["Brighten", "Even Tone"],
   },
   {
     id: 12,
@@ -106,6 +117,7 @@ export const products = [
     price: 29.99,
     image: "https://cdn11.bigcommerce.com/s-gud7r2x2lu/products/399/images/7541/Olay_Retinol24Serum_MOI__62220.1729101027.386.513.jpg?c=2",
     rating: 4,
+    benefits: ["Soothe", "Calm Redness"],
   },
   {
     id: 14,
@@ -115,6 +127,7 @@ export const products = [
     price: 32.0,
     image: "https://storage.skinsort.com/bxjausakwsx5vinlqhbbbk2h2b5j",
     rating: 5,
+    benefits: ["Protect", "Repair Barrier"],
   },
   {
     id: 15,
@@ -124,6 +137,7 @@ export const products = [
     price: 24.0,
     image: "https://refinehealthmiami.com/cdn/shop/files/Untitled_design_52.png?v=1730816389",
     rating: 5,
+    benefits: ["Protect"],
   },
   {
     id: 16,
@@ -133,6 +147,7 @@ export const products = [
     price: 14.99,
     image: "https://www.thecareak.com/wp-content/uploads/2021/09/Rosehip-oil-face-1.jpg",
     rating: 4,
+    benefits: ["Boost Glow", "Refresh"],
   },
   {
     id: 17,
@@ -142,6 +157,7 @@ export const products = [
     price: 17.0,
     image: "https://www.mariobadescu.com/cdn/shop/files/telgrbauypesbxtq2yzg_b3137526-0535-4dbe-8b6d-ca50a78d2c2e.jpg?v=1702450609",
     rating: 4,
+    benefits: ["Even Tone"],
   },
   {
     id: 18,
@@ -151,6 +167,7 @@ export const products = [
     price: 59.0,
     image: "https://8c3412d76225d04d7baa-be98b6ea17920953fb931282eff9a681.images.lovelyskin.com/2xcy1pv2_202506191413142661.jpg",
     rating: 5,
+    benefits: ["Hydrate", "Nourish"],
   },
   {
     id: 19,
@@ -160,6 +177,7 @@ export const products = [
     price: 10.99,
     image: "https://i5.walmartimages.com/asr/4ec448db-8ad8-4bd9-89d0-c062c02b288e.26f76597ab9bb7cb43c461c58e72eced.png",
     rating: 4,
+    benefits: ["Hydrate", "Nourish"],
   },
   {
     id: 20,
@@ -169,6 +187,7 @@ export const products = [
     price: 48.0,
     image: "https://www.sephora.com/productimages/sku/s2640662-main-zoom.jpg?imwidth=96https://www.sephora.com/productimages/sku/s2640662-main-zoom.jpg?imwidth=1224",
     rating: 5,
+    benefits: ["Protect", "Repair Barrier"],
   },
   {
     id: 21,
@@ -178,6 +197,7 @@ export const products = [
     price: 26.0,
     image: "https://www.sephora.com/productimages/sku/s2175370-main-zoom.jpg?imwidth=930",
     rating: 4,
+    benefits: ["Deep Clean", "Remove Impurities"],
   },
   {
     id: 22,
@@ -187,6 +207,7 @@ export const products = [
     price: 9.9,
     image: "https://www.ordinarykuwait.com/wp-content/uploads/2023/09/rdn-aha-30pct-bha-2pct-peeling-solution-30ml.webp",
     rating: 5,
+    benefits: ["Minimize Pores", "Smooth Texture"],
   },
   {
     id: 23,
@@ -196,6 +217,7 @@ export const products = [
     price: 9.0,
     image: "https://www.sephora.com/productimages/sku/s2762979-main-zoom.jpg?imwidth=1224",
     rating: 4,
+    benefits: ["Reduce Wrinkles", "Firm Skin"],
   },
   {
     id: 24,
@@ -205,6 +227,7 @@ export const products = [
     price: 25.0,
     image: "https://www.sephora.com/productimages/sku/s2842714-main-zoom.jpg?imwidth=1224",
     rating: 5,
+    benefits: ["Hydrate", "Nourish"],
   },
   {
     id: 25,
@@ -214,6 +237,7 @@ export const products = [
     price: 68.0,
     image: "https://s2.r29static.com/bin/entry/318/0,0,2000,1050/x,80/2200924/image.jpg",
     rating: 5,
+    benefits: ["Hydrate", "Nourish"],
   },
   {
     id: 26,
@@ -223,6 +247,7 @@ export const products = [
     price: 12.0,
     image: "https://dy6g3i6a1660s.cloudfront.net/k3Qkyq0ATH3JxNKk8fVGMQR-BH4/zb_p.jpg",
     rating: 4,
+    benefits: ["Brighten", "Even Tone"],
   },
   {
     id: 27,
@@ -232,6 +257,7 @@ export const products = [
     price: 18.0,
     image: "https://frendsbeauty.com/cdn/shop/files/bgs_30_1_700x700.jpg?v=1695816239",
     rating: 5,
+    benefits: ["Protect"],
   },
   {
     id: 28,
@@ -241,6 +267,7 @@ export const products = [
     price: 72.0,
     image: "https://www.sephora.com/productimages/sku/s2213528-main-zoom.jpg?imwidth=1224",
     rating: 5,
+    benefits: ["Soothe"],
   },
   {
     id: 29,
@@ -250,5 +277,6 @@ export const products = [
     price: 34.0,
     image: "https://www.sephora.com/productimages/sku/s2935617-main-zoom.jpg?imwidth=1224",
     rating: 5,
+    benefits: ["Soothe", "Hydrate", "Nourish"],
   },
 ];
