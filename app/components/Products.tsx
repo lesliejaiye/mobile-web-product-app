@@ -16,7 +16,7 @@ export default function Products({ name, brand, price, image, rating, descriptio
 // TODO: Add a Dropdwon section for About the Product and Ingredients
     return (
         <>
-        <div className="max-w-md mx-auto p-4 pt-8 bg-white min-h-screen">
+        <div className="w-full p-4 pt-8 bg-white min-h-screen">
             <div className="text-center">
                 <h1 className="text-2xl font-bold text-gray-800">{brand}</h1>
                 <h2 className="text-xl text-gray-800">{name}</h2>

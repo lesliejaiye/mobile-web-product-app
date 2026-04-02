@@ -136,7 +136,7 @@ export const products = [
   },
   {
     id: 17,
-    productType: "Balm",
+    productType: "Acne Treatment",
     name: "Acne Spot Treatment",
     brand: "Mario Badescu",
     price: 17.0,
