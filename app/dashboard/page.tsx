@@ -41,6 +41,12 @@ export default function Dashboard() {
                                 })}
                             </div>
                         ) : page === "products" ? (
+                            <>
+                                <button onClick={() => setPage("dashboard")} className="absolute top-4 left-4 bg-gray-200 p-2 rounded-lg text-gray-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                                    </svg>
+                                </button>
                                 <Products
                                     key={selectedProduct.id}
                                     name={selectedProduct.name}
@@ -53,7 +59,8 @@ export default function Dashboard() {
                                     skinConcerns={productTypeInfo[selectedProduct.productType].skinConcerns.join(", ")}
                                     directions={productTypeInfo[selectedProduct.productType].directions}
                                     ingredients={productTypeInfo[selectedProduct.productType].ingredients.join(", ")} />
-                            ) : null}
+                            </>
+                        ) : null}
                     </>
                 </div>
             </div>
