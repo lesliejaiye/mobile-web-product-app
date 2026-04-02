@@ -3,21 +3,29 @@
 import Card from "../components/Card";
 import Filter from "../components/Filter";
 import { products } from "../data/products";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Products from "../components/Products";
 import { productTypeInfo } from "../data/skinSpecifics";
 
 // TODO: Fix scroll position when navigating back from product details
-// TODO: Add back button to go back to dashboard
 
 export default function Dashboard() {
     const [selectedProduct, setSelectedProduct] = useState(products[0]);
     const [page, setPage] = useState("dashboard");
+    const containerRef = useRef<HTMLDivElement>(null);
+    
+    useEffect(() => {
+        if(containerRef.current) {
+            containerRef.current.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    }, [page])
 
     return (
         <>
+        <div>
             {page === "dashboard" && <h1 className="text-2xl font-bold text-gray-900 mt-8">Skincare</h1>}
-            <div className="container mx-auto px-4 py-6 h-screen overflow-y-auto">
+        </div>
+            <div ref={containerRef} className="container mx-auto px-4 py-6 h-screen overflow-y-auto">
                 {page === "dashboard" && <Filter />}
                 <div className="mt-6">
                     <>
@@ -41,7 +49,7 @@ export default function Dashboard() {
                                 })}
                             </div>
                         ) : page === "products" ? (
-                            <>
+                            <div>
                                 <button onClick={() => setPage("dashboard")} className="absolute top-4 left-4 bg-gray-200 p-2 rounded-lg text-gray-700">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
@@ -59,7 +67,7 @@ export default function Dashboard() {
                                     skinConcerns={productTypeInfo[selectedProduct.productType].skinConcerns.join(", ")}
                                     directions={productTypeInfo[selectedProduct.productType].directions}
                                     ingredients={productTypeInfo[selectedProduct.productType].ingredients.join(", ")} />
-                            </>
+                            </div>
                         ) : null}
                     </>
                 </div>
