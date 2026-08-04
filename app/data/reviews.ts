@@ -1,4 +1,4 @@
-const reviews = [
+export const reviews = [
   {
     name: "Emma R.",
     product: "Cleanser",

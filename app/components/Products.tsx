@@ -1,3 +1,5 @@
+import { reviews } from '../data/reviews';
+
 export default function Products({ name, brand, price, image, rating, description, skinType, skinConcerns, directions, ingredients }: { 
     name: string, 
     brand: string, 
@@ -11,7 +13,6 @@ export default function Products({ name, brand, price, image, rating, descriptio
     ingredients: string 
 }) {
 // TODO: Add a highlights section that speaks on the top benefits of product
-// TODO: Add a reviews section that shows customer reviews
     return (
         <>
         <div className="w-full p-4 pt-8 bg-white min-h-screen">
@@ -50,6 +51,32 @@ export default function Products({ name, brand, price, image, rating, descriptio
                 <p className="font-semibold text-sm text-gray-700 mb-1">Ingredients</p>
                 <p className="text-sm text-gray-600">{ingredients}</p>
             </div>
+            <div className="mt-8">
+                <h3 className="font-semibold text-lg text-gray-800 mb-4">Customer Reviews</h3>
+                <div className="space-y-4">
+                    {reviews
+                    // Filter keeps the reviews that match the condition (product name contains the review product name)
+                        .filter(review => name.toLowerCase().includes(review.product.toLowerCase()))
+                        // Slice keeps the first 3 reviews
+                        .slice(0, 3)
+                        // Map creates a new array of review components
+                        .map((review, index) => (
+                            <div key={index} className="p-4 bg-white border border-gray-200 rounded-lg shadow-sm">
+                                <div className="flex items-center mb-2">
+                                    <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center text-pink-700 font-semibold text-sm">
+                                        {review.name.charAt(0)}
+                                    </div>
+                                    <span className="ml-2 font-medium text-gray-800 text-sm">{review.name}</span>
+                                </div>
+                                <p className="text-sm text-gray-600">{review.review}</p>
+                            </div>
+                        ))}
+                    {reviews.filter(review => name.toLowerCase().includes(review.product.toLowerCase())).length === 0 && (
+                        <p className="text-sm text-gray-500 italic">No reviews yet for this product.</p>
+                    )}
+                </div>
+            </div>
+            
         </div>
         </>
     );
