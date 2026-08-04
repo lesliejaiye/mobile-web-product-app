@@ -5,6 +5,8 @@ export default function OnboardQuestions({ questions }: { questions: string[] })
     ];
     // TODO: Add a loop to handle multiple questions
     // TODO: Add a click handler to navigate to next question
+    // TODO: You need to store the information of this data (keep in mind it will need to be stored per person soon...
+    // this will probably involve supabase)
     return (
         <div className="w-86 h-86 rounded-full bg-green-400 flex items-center justify-center p-4">
             <div className="flex flex-col gap-2">
