@@ -25,7 +25,7 @@ export default function Products({ name, brand, price, image, rating, descriptio
                 <p className="text-gray-800 font-bold">${price}</p>
             </div>
             <div className="text-center">
-                <button className="bg-gray-400 text-white px-16 py-1 rounded-xl">Buy</button>
+                <button className="text-black px-16 py-1 mt-2 rounded-xl border-2 border-black">Buy</button>
             </div>
             <div className="mt-8">
                 <p className="font-semibold text-gray-600 font-medium mb-2">Skincare Concerns: </p>
